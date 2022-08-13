@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCore_FerBun", "AspCore_FerBun\AspCore_FerBun.csproj", "{5EA78EC7-12B7-4B7A-8F54-CC268A0DE218}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCore_FerBun", "AspCore_FerBun\AspCore_FerBun.csproj", "{5EA78EC7-12B7-4B7A-8F54-CC268A0DE218}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatR", "MediatR", "{674FB8E1-93DD-40B0-93F5-46E3611A04BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gRPC", "gRPC", "{1B6D3D7B-E0C0-412C-B211-C10F5FA919A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "GrpcGreeter\GrpcGreeter.csproj", "{A9D2DA0D-F777-40F3-B23C-4E3F84BE698C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,16 @@ Global
 		{5EA78EC7-12B7-4B7A-8F54-CC268A0DE218}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EA78EC7-12B7-4B7A-8F54-CC268A0DE218}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EA78EC7-12B7-4B7A-8F54-CC268A0DE218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D2DA0D-F777-40F3-B23C-4E3F84BE698C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D2DA0D-F777-40F3-B23C-4E3F84BE698C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D2DA0D-F777-40F3-B23C-4E3F84BE698C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D2DA0D-F777-40F3-B23C-4E3F84BE698C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9D2DA0D-F777-40F3-B23C-4E3F84BE698C} = {1B6D3D7B-E0C0-412C-B211-C10F5FA919A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {787AC353-C7B3-4D1D-B97F-E6C67BAFCC55}
